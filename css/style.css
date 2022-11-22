@@ -12,6 +12,7 @@
     margin: auto;
 }
 
+
 /*UTILITY CLASS ENDS HERE*/
 ul .btn-dark a{
     padding:0.5rem 1rem;
@@ -37,17 +38,95 @@ ul li a{
 }
 
 /**SECTION 1**/
+main{
+    height: 120vh;
+}
 .sec1{
-    height: 80vh;
+    height: 70vh;
     display: grid;
-    grid-template-columns: 40% 40%;
-    gap: 20%;
+    grid-template-columns: 40% 58%;
+    gap: 2%;
+    align-items: center;
 }
 .sec1-img{
     height: 100%;
     background: url('../img/ov-1.jpg') no-repeat center center/cover;
-    border-radius: 50%;
+    border-radius: 100%;
 }
-.sec1-txt{
+.h1{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.p{
+    font-size: 1.2rem;
+}
+.sec2{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 5%;
+    height: 50vh;
+    padding: 2rem 0;
+
+}
+.sec2-txt1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec2-txt2{
+    display: flex;
+    flex-direction: column;
     
+}
+.sec2-txt2 .sec2-grid{
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    gap: 32px;
+    width: 100%;
+    height: 100%;
+}
+.skill{
+    width: 100%;
+    height: 80%;
+}
+.html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 100%;
+}
+.css{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 100%;
+}
+.bootstrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.figma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 100%;
+}
+.github{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.js{
+   width: 100%;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sec2-h1{
+    margin-bottom: 30px;
 }
