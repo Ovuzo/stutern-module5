@@ -42,7 +42,7 @@ ul li a{
     color: black;
 }
 .dark{
-    color: rgb(74, 6, 6);
+    color: rgb;
 }
 /**SECTION 1**/
 
@@ -50,14 +50,17 @@ main{
     height:fit-content;
     padding-bottom:  4rem;
 }
+.wrap{
+    /* background: rgb(236, 242, 232); */
+}
 .sec1{
     height: 70vh;
     display: grid;
-    grid-template-columns: 40% 58%;
-    gap: 2%;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
     align-items: center;
-    background: #fff;
-    margin:3rem 0;
+    
+    
 }
 .sec1-img{
     height: 100%;
@@ -143,6 +146,9 @@ main{
 }
 .sec2-h1{
     margin-bottom: 30px;
+}
+footer p{
+    text-align: center;
 }
 @media screen and(max-width:500px) {
     .sec1{
